@@ -1,5 +1,5 @@
 {
-  "name": "trippy",
+  "name": "lockandkey",
   "version": "0.0.1",
   "author": "Bent Cardan",
   "description": "lock and unlock stuff using a key",
@@ -15,6 +15,6 @@
     "lock",
     "key"
   ],
-  "homepage": "https://github.com/reqshark/trippy",
+  "homepage": "https://github.com/reqshark/lockandkey",
   "license": "MIT"
 }
