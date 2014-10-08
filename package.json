@@ -1,0 +1,20 @@
+{
+  "name": "trippy",
+  "version": "0.0.1",
+  "author": "Bent Cardan",
+  "description": "lock and unlock stuff using a key",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/reqshark/lockandkey"
+  },
+  "keywords": [
+    "encryption",
+    "forward secrecy",
+    "diffie hellman",
+    "key exchange",
+    "lock",
+    "key"
+  ],
+  "homepage": "https://github.com/reqshark/trippy",
+  "license": "MIT"
+}
