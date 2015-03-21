@@ -1,20 +1,24 @@
 {
-  "name": "lockandkey",
-  "version": "0.0.2",
-  "author": "Bent Cardan",
-  "description": "lock and unlock stuff using a key",
+  "name":           "lockandkey",
+  "version":        "0.0.3",
+  "description":    "lock and unlock stuff using a key",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/reqshark/lockandkey"
+                    "type": "git",
+                    "url": "git://github.com/reqshark/lockandkey"
+  },
+  "author": {
+    "name":         "Bent Cardan",
+    "email":        "bent@nothingsatisfies.com",
+    "url":          "http://req.link"
   },
   "keywords": [
-    "encryption",
-    "forward secrecy",
-    "diffie hellman",
-    "key exchange",
-    "lock",
-    "key"
+                    "encryption",
+                    "forward secrecy",
+                    "diffie hellman",
+                    "key exchange",
+                    "lock",
+                    "key"
   ],
-  "homepage": "https://github.com/reqshark/lockandkey",
-  "license": "MIT"
+  "homepage":       "https://github.com/reqshark/lockandkey",
+  "license":        "MIT"
 }

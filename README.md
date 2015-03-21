@@ -13,6 +13,8 @@ var lak = require('lockandkey');
 var lock = lak.lock;
 var unlock = lak.unlock;
 
-var locked = lock('done deal', key); //ciphered base64 string, locked up! 
+var locked = lock('done deal', key); //ciphered base64 string, locked up!
 var unlocked = unlock(locked, key); //'done deal'
 ```
+
+check the test directory for exmaples
