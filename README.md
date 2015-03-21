@@ -17,4 +17,12 @@ var locked = lock('done deal', key); //ciphered base64 string, locked up!
 var unlocked = unlock(locked, key); //'done deal'
 ```
 
-check the test directory for exmaples
+if you need help finding a cryptographic key, check the test directory and run a diffie helman exchange.
+
+node buffers work well over the protocols. generate the keys and dont touch: just maintain node buffers end-to-end they'll arrive intact for computing the secret key.
+
+# run the example
+```bash
+$ git clone https://github.com/reqshark/lockandkey && cd lockandkey; npm i
+$ node test
+```
