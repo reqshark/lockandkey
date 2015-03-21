@@ -23,6 +23,6 @@ node buffers work well over the protocols. generate the keys and dont touch: jus
 
 # run the example
 ```bash
-$ git clone https://github.com/reqshark/lockandkey && cd lockandkey; npm i
+$ git clone https://github.com/reqshark/lockandkey && cd lockandkey
 $ node test
 ```
