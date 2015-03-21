@@ -1,9 +1,9 @@
 {
   "name":           "lockandkey",
-  "version":        "0.0.4",
+  "version":        "0.0.6",
   "description":    "lock and unlock stuff using a key",
   "repository": {   "type"  : "git",
-                    "url"   : "https://github.com/reqshark/perf" },
+                    "url"   : "https://github.com/reqshark/lockandkey" },
   "author": {
     "name":         "Bent Cardan",
     "email":        "bent@nothingsatisfies.com",
@@ -17,6 +17,5 @@
                     "lock",
                     "key"
   ],
-  "homepage":       "https://github.com/reqshark/lockandkey",
   "license":        "MIT"
 }
