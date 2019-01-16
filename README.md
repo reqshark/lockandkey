@@ -19,7 +19,7 @@ var unlocked = unlock(locked, key); //'done deal'
 
 if you need help finding a cryptographic key, check the test directory and run a diffie helman exchange.
 
-node buffers work well over the protocols. generate the keys and dont touch: just maintain node buffers end-to-end they'll arrive intact for computing the secret key.
+over protocols and wires, i like to use strings. generate your cypher text and send. unlock it elsewhere if the shared secret is known.
 
 # run the example
 ```bash
