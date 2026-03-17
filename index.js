@@ -1,16 +1,19 @@
-const crypto = require('crypto')
+const {
+  createCipheriv,
+  createDecipheriv
+} = require('crypto')
 
 module.exports = {
   lock: ( str, k ) => {
-    var c = crypto.createCipher('aes-256-cbc',k)
-    var ret = c.update(str,'utf8','base64')
-    ret += c.final('base64')
-    return ret
+    if (k.length !== 32)
+      throw new Error('key must be 32 bytes long\nlike:\nkey = randomBytes(32).toString('hex')')
+    const c = createCipheriv('aes-256-cbc', k, new Uint8Array(16))
+    return (c.update(str, 'utf8', 'hex') + c.final('hex'))
   },
   unlock: ( str, k ) => {
-    var d = crypto.createDecipher('aes-256-cbc', k)
-    var ret = d.update(str,'base64','utf8')
-    ret += d.final('utf8')
-    return ret
+    if (k.length !== 32)
+      throw new Error('key must be 32 bytes long\nlike:\nkey = randomBytes(32).toString('hex')')
+    const d = createDecipheriv('aes-256-cbc', k, new Uint8Array(16))
+    return (d.update(str,'hex', 'utf8') + d.final('utf8'))
   }
 }
