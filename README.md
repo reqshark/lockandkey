@@ -1,3 +1,27 @@
+# RECOVERING MY NPM PUBLISH RIGHTS
+
+npm/github support said to me:
+> "There isn't enough information provided to us to verify you identity, are unable to recover access to the npm user account."
+
+Ok I'm happy to provide more information to verify my identity for my reqshark account.
+
+Once I regain access to my account, I will update the npm package called `lockandkey` first among others.
+
+# Links to this project
+Here's the npm link: https://www.npmjs.com/package/lockandkey
+
+GitHub repo is https://github.com/reqshark/lockandkey
+
+# To Establish The Identity of Bent Cardan
+I have control of my github account (reqshark) and I will establish my identity to npm/github support with a simple commit to the above github repository.
+
+* I, Bent Cardan, do not have control of my NPM user account (reqshark).
+* I am emailing with Github/NPM support today using my current email (bcardan@gmail.com) Wednesday, March 25, 2026 to recover my NPM publish account rights.
+* I must establish my identity as reqshark (Bent Cardan).
+* I use the account reqshark on github, but I am currently locked out of my NPM pkg account and need help from support to recover this account, so I can update this package and others.
+
+Thank you for your time 
+
 # lock and key
 lock and unlock stuff using a key
 
